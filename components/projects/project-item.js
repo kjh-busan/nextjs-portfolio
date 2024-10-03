@@ -121,7 +121,7 @@ export default function ProjectItem({ data }) {
         <h1 className="text-2xl font-bold">{title}</h1>
         <h4 className="mt-4 text-xl">
           {lifeperiodStart} ~ {lifeperiodEnd} (
-          {calculatedPeriod(lifeperiodStart, lifeperiodEnd)})
+          {calculatedPeriod2(lifeperiodStart, lifeperiodEnd)})
         </h4>
         <h3 className="mt-4 text-xl">{description}</h3>
         <h4 className="mt-4 text-xl">満足度 : {relationship}</h4>
